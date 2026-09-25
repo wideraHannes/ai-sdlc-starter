@@ -1,18 +1,18 @@
 # Definition of Ready
 
-**Was ist das?** Die Checkliste des Teams, die festlegt, was in einer Story stehen muss, **bevor** mit der Arbeit begonnen wird. Sie schützt davor, dass jemand — Mensch oder KI — anfängt zu bauen, ohne zu wissen, was eigentlich gebaut werden soll.
+**What is this?** The team's checklist that defines what a story must contain **before** work on it starts. It protects against anyone — human or AI — starting to build without knowing what is actually supposed to be built.
 
-**Warum gerade mit KI wichtig?** Ein Agent fragt nicht nach, wenn etwas unklar ist — er erfindet eine plausible Antwort. Eine vage Story führt zu vagem Code, der auf den ersten Blick richtig aussieht.
+**Why is this especially important with AI?** An agent does not ask back when something is unclear — it invents a plausible answer. A vague story leads to vague code that looks right at first glance.
 
 ---
 
-Eine Story ist bereit für die Umsetzung, wenn:
+A story is ready for implementation when:
 
-- [ ] **Story-Satz** vorhanden: "Als [Rolle] möchte ich [Aktion], damit [Nutzen]."
-- [ ] **Akzeptanzkriterien** sind konkret und testbar formuliert
-- [ ] **Scope** ist abgegrenzt: was ist ausdrücklich *nicht* Teil der Story
-- [ ] **Fachlicher Kontext** ist beschrieben, soweit für das Verständnis nötig
-- [ ] **Abhängigkeiten** zu anderen Stories oder Systemen sind benannt
-- [ ] Die Story ist **klein genug**, um in einer Iteration umgesetzt zu werden
+- [ ] **Story sentence** present: "As a [role], I want to [action], so that [benefit]."
+- [ ] **Acceptance criteria** are formulated concretely and testably
+- [ ] **Scope** is delimited: what is explicitly *not* part of the story
+- [ ] **Business context** is described, as far as needed for understanding
+- [ ] **Dependencies** on other stories or systems are named
+- [ ] The story is **small enough** to be implemented within one iteration
 
-Ein angewendetes Beispiel: [`examples/story_example.md`](examples/story_example.md)
+An applied example: [`examples/story_example.md`](examples/story_example.md)

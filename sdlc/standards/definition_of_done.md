@@ -1,21 +1,21 @@
 # Definition of Done
 
-**Was ist das?** Die Checkliste, die eine Implementierung erfüllen muss, um als **fertig** zu gelten. Sie ist der Maßstab, gegen den reviewt wird — von Menschen und von der KI.
+**What is this?** The checklist an implementation has to fulfil in order to count as **finished**. It is the yardstick reviews are run against — by humans and by the AI.
 
-**Warum gerade mit KI wichtig?** Ein Agent meldet "fertig", sobald der Code läuft. Ob er lesbar, getestet und architekturkonform ist, prüft er nur, wenn man es ihm als Kriterium mitgibt. Die DoD ist genau diese Vorgabe in Dateiform.
+**Why is this especially important with AI?** An agent reports "done" as soon as the code runs. Whether it is readable, tested and in line with the architecture is something it only checks when given that as a criterion. The DoD is exactly that requirement in file form.
 
 ---
 
-Eine Implementierung ist fertig, wenn:
+An implementation is done when:
 
-- [ ] Alle **Akzeptanzkriterien** der Story sind erfüllt
-- [ ] **Tests** decken das neue Verhalten ab — und wurden *fehlschlagen gesehen*
-- [ ] Die gesamte **Test-Suite ist grün**
-- [ ] Der Code folgt `architecture.md` und `code_style.md`
-- [ ] **Lesbarkeit:** sprechende Namen, keine toten Pfade, keine auskommentierten Reste
-- [ ] **Fehlerbehandlung** ist bewusst gestaltet, nicht nur "happy path"
-- [ ] **Sicherheit:** keine Secrets im Code, Eingaben werden validiert
-- [ ] **Dokumentation** ist aktualisiert, wo sie durch die Änderung veraltet wäre
-- [ ] Ein **Review in frischer Session** wurde durchlaufen und die Findings bewertet
+- [ ] All **acceptance criteria** of the story are fulfilled
+- [ ] **Tests** cover the new behavior — and have been *seen to fail*
+- [ ] The entire **test suite is green**
+- [ ] The code follows `architecture.md` and `code_style.md`
+- [ ] **Readability:** meaningful names, no dead paths, no commented-out leftovers
+- [ ] **Error handling** is designed deliberately, not just the "happy path"
+- [ ] **Security:** no secrets in the code, inputs are validated
+- [ ] **Documentation** is updated wherever the change would make it outdated
+- [ ] A **review in a fresh session** has been run and the findings assessed
 
-Diese Datei bleibt bewusst **unter 200 Zeilen**. Sie wird in jeder Review-Session gelesen und kostet damit jedes Mal Kontext.
+This file deliberately stays **under 200 lines**. It is read in every review session and therefore costs context every time.

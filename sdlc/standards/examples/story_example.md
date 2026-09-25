@@ -1,26 +1,26 @@
-# Beispiel: Eine Story, die die Definition of Ready erfüllt
+# Example: a story that fulfils the Definition of Ready
 
-Dieses Dokument ist **kein echtes Ticket**, sondern ein Anschauungsbeispiel für die
+This document is **not a real ticket**, but an illustrative example for the
 [Definition of Ready](../definition_of_ready.md).
 
 ---
 
-# ST-001: Passwort zurücksetzen
+# ST-001: Reset password
 
-**Als** registrierter Nutzer
-**möchte ich** mein Passwort per E-Mail zurücksetzen können,
-**damit** ich wieder Zugriff auf mein Konto bekomme, wenn ich es vergessen habe.
+**As a** registered user
+**I want to** reset my password by email,
+**so that** I regain access to my account when I have forgotten it.
 
-## Akzeptanzkriterien
-- Bei Eingabe einer registrierten E-Mail wird eine Mail mit Reset-Link versendet
-- Der Link ist 60 Minuten gültig und nur einmal verwendbar
-- Bei Eingabe einer *nicht* registrierten E-Mail erscheint dieselbe Bestätigung
-  (keine Auskunft darüber, ob ein Konto existiert)
-- Nach erfolgreichem Reset werden alle bestehenden Sessions beendet
+## Acceptance criteria
+- Entering a registered email address sends a mail with a reset link
+- The link is valid for 60 minutes and can only be used once
+- Entering an *unregistered* email address shows the same confirmation
+  (no disclosure of whether an account exists)
+- After a successful reset, all existing sessions are terminated
 
-## Nicht Teil dieser Story
-- Zurücksetzen per SMS
-- Änderung des Passworts bei eingeloggtem Nutzer
+## Not part of this story
+- Resetting via SMS
+- Changing the password while the user is logged in
 
-## Abhängigkeiten
-- Mailversand (ST-014) muss verfügbar sein
+## Dependencies
+- Mail delivery (ST-014) must be available

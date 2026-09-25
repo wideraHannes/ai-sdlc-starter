@@ -1,38 +1,40 @@
-# Standard-Prompts
+# Standard prompts
 
-Die wiederkehrenden Prompts des SDLC — einer pro Schritt, mit den Pfaden dieses
-Repositories. Zum Kopieren, nicht zum Auswendiglernen.
+The recurring prompts of the SDLC — one per step, with the paths of this
+repository. To copy, not to memorize.
 
-| Datei | Schritt | Erzeugt |
+| File | Step | Produces |
 | --- | --- | --- |
-| [`01_plan.md`](01_plan.md) | Story Refinement | `backlog/refined/ST-XXX.md` |
-| [`02_code.md`](02_code.md) | Implementierungsplanung & Umsetzung | `backlog/plans/ST-XXX_plan.md`, Code |
-| [`03_test_release.md`](03_test_release.md) | Review & Rework | `backlog/reviews/ST-XXX_review.md` |
-| [`04_documentation.md`](04_documentation.md) | Dokumentation | `docs/` |
+| [`01_plan.md`](01_plan.md) | Story refinement | `backlog/refined/ST-XXX.md` |
+| [`02_code.md`](02_code.md) | Implementation planning & execution | `backlog/plans/ST-XXX_plan.md`, code |
+| [`03_test_release.md`](03_test_release.md) | Review & rework | `backlog/reviews/ST-XXX_review.md` |
+| [`04_documentation.md`](04_documentation.md) | Documentation | `docs/` |
 
-`ST-XXX` ist überall durch den echten Identifier des Arbeitspakets zu ersetzen.
+`ST-XXX` is to be replaced everywhere with the real identifier of the work
+package.
 
-## Wie diese Prompts zu lesen sind
+## How to read these prompts
 
-Sie sind **Startpunkte für ein Gespräch**, keine Zauberformeln. Wo ein Prompt eine
-Rückfrage auslöst, ist das ein gutes Zeichen: die KI holt Kontext, den sie sonst
-erfunden hätte.
+They are **starting points for a conversation**, not magic formulas. Where a
+prompt triggers a follow-up question, that is a good sign: the AI is fetching
+context it would otherwise have invented.
 
-Die Sprache ist egal — wer lieber auf Englisch promptet, tut das. Was zählt, sind
-die mitgelieferten Dateien und das, was als Ergebnis erwartet wird.
+The language does not matter — whoever prefers to prompt in German does so. What
+counts are the files handed along and what is expected as a result.
 
-## Dos & Don'ts
+## Dos & don'ts
 
-**Nicht so:** „erstelle eine Definition of Done" — ein nackter Befehl liefert
-generische Boilerplate.
+**Not like this:** "create a Definition of Done" — a bare command delivers
+generic boilerplate.
 
-**Auch nicht:** „bitte …", „kannst du …" — Höflichkeitsfloskeln tragen nichts bei.
+**Not like this either:** "please …", "could you …" — politeness phrases
+contribute nothing.
 
-**Sondern:** „Hilf uns, eine Definition of Done zu erstellen. Was gehört hinein?
-[…] Stell eine Frage nach der anderen." So kommt das Wissen des Teams heraus
-statt des Durchschnitts aus den Trainingsdaten.
+**But rather:** "Help us create a Definition of Done. What belongs in it?
+[…] Ask one question at a time." That way the team's knowledge comes out instead
+of the average of the training data.
 
-## Wenn ein Prompt zum dritten Mal getippt wird
+## When a prompt is typed for the third time
 
-Dann gehört er nicht mehr hierher, sondern wird ein Skill und ist ab da per
-`/skill-name` aufrufbar. Jede Überschrift in diesen Dateien ist ein Kandidat dafür.
+Then it no longer belongs here but becomes a skill and can be called with
+`/skill-name` from then on. Every heading in these files is a candidate for it.

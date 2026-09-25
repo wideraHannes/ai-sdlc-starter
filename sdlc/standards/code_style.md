@@ -1,44 +1,43 @@
 # Code Style
 
-**Was ist das?** Die Regeln, wie Code in diesem Projekt auszusehen hat — über
-das hinaus, was ein Formatter erzwingt.
+**What is this?** The rules for what code in this project has to look like —
+beyond what a formatter enforces.
 
-**Warum gerade mit KI wichtig?** Ein Agent schreibt Code im Durchschnitt seiner
-Trainingsdaten. Ohne Vorgabe entsteht in jeder Session ein anderer Stil, und das
-Projekt zerfällt in Dialekte.
+**Why is this especially important with AI?** An agent writes code that averages
+its training data. Without a specification, every session produces a different
+style and the project falls apart into dialects.
 
-> Diese Datei wird beim Aufsetzen eines Durchlaufs erarbeitet.
-> Die Abschnitte unten sind ein Vorschlag, keine Pflicht.
+> This file is worked out when setting up a run.
+> The sections below are a suggestion, not an obligation.
 
 ---
 
-## Formatierung
+## Formatting
 
-<!-- Welcher Formatter/Linter läuft, mit welcher Konfiguration?
-     Was automatisch erzwungen wird, muss hier nicht wiederholt werden. -->
+<!-- Which formatter/linter runs, with which configuration?
+     What is enforced automatically does not need to be repeated here. -->
 
-## Benennung
+## Naming
 
-<!-- Konventionen für Dateien, Klassen, Funktionen, Variablen, Tests. -->
+<!-- Conventions for files, classes, functions, variables, tests. -->
 
-## Struktur
+## Structure
 
-<!-- Wo liegt was? Wann ein neues Modul, wann eine neue Datei?
-     Maximale Größe von Funktionen/Dateien, falls es eine Regel gibt. -->
+<!-- What lives where? When a new module, when a new file?
+     Maximum size of functions/files, if there is a rule. -->
 
-## Fehlerbehandlung
+## Error handling
 
-<!-- Exceptions oder Result-Typen? Wo wird geloggt, wo geworfen? -->
+<!-- Exceptions or result types? Where is something logged, where thrown? -->
 
 ## Tests
 
-<!-- Aufbau, Benennung, was gemockt wird und was nicht. -->
+<!-- Layout, naming, what gets mocked and what does not. -->
 
-## Kommentare
+## Comments
 
-<!-- Wann ein Kommentar gerechtfertigt ist — in der Regel das *Warum*,
-     nicht das *Was*. -->
+<!-- When a comment is justified — as a rule the *why*, not the *what*. -->
 
 ---
 
-Diese Datei bleibt **kurz**. Sie wird in fast jeder Session gelesen.
+This file stays **short**. It is read in almost every session.

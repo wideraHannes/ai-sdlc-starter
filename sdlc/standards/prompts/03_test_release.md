@@ -1,70 +1,69 @@
-# Test / Release — Review & Rework
+# Test / Release — review & rework
 
-Ziel: das Ergebnis gegen einen Maßstab prüfen, der vorher feststand — und die
-Findings bewerten, bevor sie abgearbeitet werden.
+Goal: check the result against a yardstick that was fixed beforehand — and
+assess the findings before working through them.
 
-**Review und Rework laufen immer in einer separaten Session.** Wer den Code
-geschrieben hat, ist auf die eigenen Entscheidungen voreingenommen — eine
-KI-Session genauso wie ein Mensch.
+**Review and rework always run in a separate session.** Whoever wrote the code is
+biased toward their own decisions — an AI session just as much as a human.
 
 ---
 
-## Definition of Done erarbeiten
+## Working out the Definition of Done
 
-Einmalig, wieder als Dialog.
+One-off, again as a dialogue.
 
 ```
-Wir brauchen eine "Definition of Done" für unser Projekt, damit jede
-Implementierung eine definierte Qualität hat und denselben Regeln folgt.
+We need a "Definition of Done" for our project, so that every implementation has
+a defined quality and follows the same rules.
 
-Enthalten sein sollte:
-- Lesbarkeit
-- Wartbarkeit
-- Testabdeckung
-- Einhaltung von architecture.md und code_style.md
-- die Akzeptanzkriterien der Story
+It should include:
+- readability
+- maintainability
+- test coverage
+- compliance with architecture.md and code_style.md
+- the acceptance criteria of the story
 
-Welche Aspekte gehören deiner Meinung nach noch hinein?
-Stell eine Frage nach der anderen.
+Which aspects belong in it as well, in your opinion?
+Ask one question at a time.
 
-Bleib unter 200 Zeilen — die Datei wird in jeder Review-Session gelesen.
-Speichere sie als sdlc/standards/definition_of_done.md
+Stay under 200 lines — the file is read in every review session.
+Save it as sdlc/standards/definition_of_done.md
 ```
 
 ## Review
 
 ```
-Review die Änderungen, die für sdlc/backlog/refined/ST-XXX.md gemäß dem Plan
-in sdlc/backlog/plans/ST-XXX_plan_v2.md gemacht wurden.
+Review the changes that were made for sdlc/backlog/refined/ST-XXX.md according
+to the plan in sdlc/backlog/plans/ST-XXX_plan_v2.md.
 
-Ist die Implementierung *konsistent*, *sicher*, *wartbar*?
+Is the implementation *consistent*, *secure*, *maintainable*?
 
-Folgt sie @sdlc/standards/architecture.md, @sdlc/standards/code_style.md und
-@sdlc/standards/definition_of_done.md?
+Does it follow @sdlc/standards/architecture.md, @sdlc/standards/code_style.md
+and @sdlc/standards/definition_of_done.md?
 
-Speichere den Report als sdlc/backlog/reviews/ST-XXX_review.md
+Save the report as sdlc/backlog/reviews/ST-XXX_review.md
 ```
 
-Dann: Findings **manuell** durchgehen und entscheiden, welche die Überarbeitung
-wert sind. Nicht jedes Finding ist eines.
+Then: go through the findings **manually** and decide which ones are worth the
+rework. Not every finding is one.
 
 ## Rework
 
 ```
-Sieh dir sdlc/backlog/reviews/ST-XXX_review.md an.
+Take a look at sdlc/backlog/reviews/ST-XXX_review.md.
 
-Arbeite die folgenden Findings ab — eines nach dem anderen:
-[hier die ausgewählten Findings nennen]
+Work through the following findings — one after the other:
+[name the selected findings here]
 
-Folge @sdlc/standards/architecture.md und @sdlc/standards/code_style.md.
+Follow @sdlc/standards/architecture.md and @sdlc/standards/code_style.md.
 ```
 
-Danach erneut reviewen. Die Schleife läuft, bis das Ergebnis trägt.
+Then review again. The loop runs until the result holds up.
 
 ## Tests
 
-Zwei Regeln, die keine Abkürzung kennen:
+Two rules that know no shortcut:
 
-- Tests werden **immer manuell geprüft**. KI-geschriebene Tests können subtil
-  falsch sein — etwa so, dass sie immer grün sind.
-- Ein Test, den man **nicht hat fehlschlagen sehen**, ist wertlos.
+- Tests are **always checked manually**. AI-written tests can be subtly wrong —
+  for instance in a way that makes them always green.
+- A test you have **not seen fail** is worthless.

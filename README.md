@@ -4,63 +4,61 @@
   <img src="assets/codecentric_PrimLogo_farbe_rgb.png" alt="codecentric" width="260">
 </a>
 
-# SDLC mit KI-Unterstützung
+# SDLC with AI Support
 
-**Eine Projektvorlage, an der der komplette Software Development Lifecycle
-durchgespielt wird** — vom rohen Backlog-Eintrag bis zur aktualisierten
-Dokumentation.
+**A project template for walking through the complete Software Development
+Lifecycle** — from the raw backlog entry to the updated documentation.
 
-<img src="assets/SDLC_loop.png" alt="Der DevOps-Loop mit den KI-Berührungspunkten je Phase" width="620">
+<img src="assets/SDLC_loop.png" alt="The DevOps loop with the AI touchpoints per phase" width="620">
 
 </div>
 
 ---
 
-## Worum es geht
+## What this is about
 
-KI hilft nicht nur beim Schreiben von Code, sondern an jeder Station des Loops.
-Diese Vorlage bildet den Ausschnitt von **Plan bis Release** ab und macht ihn
-begehbar: Jeder Schritt erzeugt eine Markdown-Datei, die der nächste als Input
-liest.
+AI does not only help with writing code, but at every station of the loop.
+This template covers the section from **Plan to Release** and makes it
+walkable: each step produces a Markdown file that the next one reads as input.
 
 ```
-unrefined  →  refined  →  plan  →  Implementierung  →  review  →  docs
-              ↑ DoR                       ↑ Tests       ↑ DoD       ↺
+unrefined  →  refined  →  plan  →  implementation  →  review  →  docs
+              ↑ DoR                      ↑ tests       ↑ DoD       ↺
 ```
 
-Diese Dateien steuern die KI und machen ihre Arbeit wiederholbar, überprüfbar
-und im Team teilbar. Ein Ticket wandert sichtbar durch die Ordner, statt in
-einem Tool zu verschwinden.
+These files steer the AI and make its work repeatable, reviewable and
+shareable across the team. A ticket travels visibly through the folders
+instead of disappearing into a tool.
 
-## Einstieg
+## Getting started
 
-| Ich möchte… | |
+| I want to… | |
 | --- | --- |
-| einen Durchlauf starten | [Anleitung im Konzept](CONCEPT.md#loslegen) |
-| verstehen, wie hier gearbeitet wird | [`CONCEPT.md`](CONCEPT.md) |
-| den Prompt für einen Schritt | [`sdlc/standards/prompts/`](sdlc/standards/prompts/README.md) |
-| den SDLC-Stoff auffrischen | [`prerequisites/`](prerequisites/README.md) |
+| start a run | [Instructions in the concept](CONCEPT.md#getting-started) |
+| understand how we work here | [`CONCEPT.md`](CONCEPT.md) |
+| get the prompt for a step | [`sdlc/standards/prompts/`](sdlc/standards/prompts/README.md) |
+| refresh the SDLC material | [`prerequisites/`](prerequisites/README.md) |
 
-## Aufbau
+## Layout
 
 ```
-sdlc/            Prozessartefakte — Stories, Pläne, Reviews, Standards, Prompts
-docs/            Architekturdokumentation, Diagramme, Entscheidungen
-tests/           Testcode und Testdaten
-prerequisites/   Hintergrundmaterial zum Nachlesen
+sdlc/            process artifacts — stories, plans, reviews, standards, prompts
+docs/            architecture documentation, diagrams, decisions
+tests/           test code and test data
+prerequisites/   background material for reading up
 ```
 
-Jeder Ordner erklärt sich in seiner eigenen `README.md`. Die Details zum
-Prozessfluss stehen in [`sdlc/README.md`](sdlc/README.md).
+Every folder explains itself in its own `README.md`. The details on the
+process flow are in [`sdlc/README.md`](sdlc/README.md).
 
-## Zustand
+## Status
 
-Dieses Repository ist eine **Vorlage**: der Prozess steht, das Projekt fehlt.
-Domäne, Tech-Stack und Anwendungscode bringt jeder Durchlauf selbst mit.
+This repository is a **template**: the process is in place, the project is
+missing. Domain, tech stack and application code come with each run.
 
 ---
 
 <div align="center">
-  <sub>Entstanden im Workshop <em>AI-Assisted Coding</em> ·
+  <sub>Created in the workshop <em>AI-Assisted Coding</em> ·
   <a href="https://www.codecentric.de/">codecentric AG</a></sub>
 </div>

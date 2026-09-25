@@ -1,56 +1,55 @@
-# Code — Implementierungsplanung & Umsetzung
+# Code — implementation planning & execution
 
-Ziel: den Agenten nicht "einfach coden" lassen. Erst planen, den Plan kritisch
-gegenlesen, dann umsetzen.
+Goal: do not let the agent "just code". Plan first, read the plan critically,
+then implement.
 
 ---
 
-## Implementierungsplan schreiben
+## Writing the implementation plan
 
 ```
-Erstelle einen Implementierungsplan für die Story
+Create an implementation plan for the story
 sdlc/backlog/refined/ST-XXX.md.
 
-Sieh dir zuerst die aktuelle Implementierung an.
+First take a look at the current implementation.
 
-- Welche *Teile* der Anwendung müssen geändert werden, und warum?
-- Welche *Tests* sollten geschrieben werden?
+- Which *parts* of the application have to be changed, and why?
+- Which *tests* should be written?
 
-Folge @sdlc/standards/architecture.md und @sdlc/standards/code_style.md.
+Follow @sdlc/standards/architecture.md and @sdlc/standards/code_style.md.
 
-Speichere den Plan als sdlc/backlog/plans/ST-XXX_plan.md
+Save the plan as sdlc/backlog/plans/ST-XXX_plan.md
 ```
 
-## Plan reviewen
+## Reviewing the plan
 
-In einer **frischen Session**. Die Formulierung „ein anderer Entwickler" ist
-Absicht: gegenüber fremder Arbeit ist die Kritik ehrlicher als gegenüber der
-eigenen.
+In a **fresh session**. The phrasing "another developer" is deliberate:
+criticism of someone else's work is more honest than of one's own.
 
 ```
-Ein Senior-Entwickler hat einen Plan für sdlc/backlog/refined/ST-XXX.md
-geschrieben: sdlc/backlog/plans/ST-XXX_plan.md
+A senior developer has written a plan for sdlc/backlog/refined/ST-XXX.md:
+sdlc/backlog/plans/ST-XXX_plan.md
 
-Review diesen Plan.
+Review this plan.
 
-Was sind seine *Stärken*, was seine *Schwächen*?
-Was würdest du *ändern* — und warum?
+What are its *strengths*, what are its *weaknesses*?
+What would you *change* — and why?
 
-Schreibe eine überarbeitete Fassung nach
+Write a revised version to
 sdlc/backlog/plans/ST-XXX_plan_v2.md
 ```
 
-Danach: den Plan **selbst** lesen. Er ist das Dokument, aus dem der ganze Rest
-folgt — ein Fehler hier pflanzt sich in jede Zeile Code fort.
+After that: read the plan **yourself**. It is the document everything else
+follows from — a mistake here propagates into every line of code.
 
-## Plan umsetzen
+## Executing the plan
 
 ```
-Setze sdlc/backlog/refined/ST-XXX.md gemäß dem Plan in
-sdlc/backlog/plans/ST-XXX_plan_v2.md um.
+Implement sdlc/backlog/refined/ST-XXX.md according to the plan in
+sdlc/backlog/plans/ST-XXX_plan_v2.md.
 
-Wo es sinnvoll ist, nutze Sub-Agents für einzelne Aufgaben, um den Kontext
-der Hauptsession klein zu halten.
+Where it makes sense, use sub-agents for individual tasks in order to keep the
+context of the main session small.
 
-Folge @sdlc/standards/architecture.md und @sdlc/standards/code_style.md.
+Follow @sdlc/standards/architecture.md and @sdlc/standards/code_style.md.
 ```

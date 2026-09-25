@@ -1,13 +1,13 @@
 # tests
 
-Testcode und Testdaten.
+Test code and test data.
 
-Der konkrete Aufbau — Verzeichnisse, Benennung, was gemockt wird — steht in
-[`../sdlc/standards/code_style.md`](../sdlc/standards/code_style.md), sobald der
-Tech-Stack feststeht.
+The concrete layout — directories, naming, what gets mocked — is described in
+[`../sdlc/standards/code_style.md`](../sdlc/standards/code_style.md) as soon as
+the tech stack is settled.
 
-Zwei Regeln gelten unabhängig davon:
+Two rules apply regardless:
 
-- Tests werden **immer manuell geprüft**. KI-geschriebene Tests können subtil
-  falsch sein — etwa so, dass sie immer grün sind.
-- Ein Test, den man **nicht hat fehlschlagen sehen**, ist wertlos.
+- Tests are **always checked manually**. AI-written tests can be subtly wrong —
+  for instance in a way that makes them always green.
+- A test you have **not seen fail** is worthless.

@@ -1,68 +1,67 @@
-# Release — Dokumentation
+# Release — documentation
 
-Ziel: Dokumentation, die nicht veraltet. Mit KI ist ihr Erstellen und
-Aktualisieren billig genug, dass es keine Ausrede mehr gibt.
+Goal: documentation that does not go stale. With AI, creating and updating it is
+cheap enough that there is no excuse left.
 
 ---
 
-## Arc42-Dokumentation erstellen
+## Creating Arc42 documentation
 
 ```
-Ich möchte eine Architekturdokumentation für diese Anwendung nach der
-Arc42-Vorlage erstellen.
+I want to create architecture documentation for this application following the
+Arc42 template.
 
-Sieh dir zuerst die vorhandenen Dokumente in @docs/, die Standards
-in @sdlc/standards/ und die @README.md an.
+First take a look at the existing documents in @docs/, the standards in
+@sdlc/standards/ and the @README.md.
 
-Nutze für Diagramme Mermaid oder PlantUML.
+Use Mermaid or PlantUML for diagrams.
 
-Speichere das Ergebnis unter docs/
+Save the result under docs/
 ```
 
-## README für den Einstieg
+## README for getting started
 
 ```
-Erstelle eine Übersicht, mit der ein neuer Entwickler in dieses Projekt
-hineinfindet: was die Anwendung tut, wie sie gebaut ist, wie man sie lokal
-zum Laufen bekommt.
+Create an overview that lets a new developer find their way into this project:
+what the application does, how it is built, how to get it running locally.
 
-Sieh dir dafür den Code und @docs/ an.
+For that, take a look at the code and @docs/.
 
-Aktualisiere damit die README.md
+Use it to update the README.md
 ```
 
-## Architekturdiagramm
+## Architecture diagram
 
 ```
-Erstelle ein Mermaid-Diagramm der Softwarearchitektur.
+Create a Mermaid diagram of the software architecture.
 
-Halte dich an das, was tatsächlich im Code steht — nicht an das, was in
-@docs/ behauptet wird.
+Stick to what is actually in the code — not to what @docs/ claims.
 ```
 
-## Steuerungsdokumente aktualisieren
+## Updating the steering documents
 
 ```
-Die Änderung an ST-XXX ist umgesetzt.
+The change for ST-XXX has been implemented.
 
-Welche Dokumente sind dadurch veraltet — architecture.md, code_style.md,
+Which documents are outdated because of it — architecture.md, code_style.md,
 docs/?
 
-Nenne sie einzeln mit der Stelle, die nicht mehr stimmt. Ändere noch nichts.
+Name them individually with the passage that no longer holds. Do not change
+anything yet.
 ```
 
-Bei `architecture.md` und `code_style.md` anschließend **manuell kürzen**: alles,
-was darin steht, kostet in *jeder* Session Kontext.
+For `architecture.md` and `code_style.md`, **shorten manually** afterwards:
+everything in them costs context in *every* session.
 
-## Textbasierte Formate
+## Text-based formats
 
-Alles, was dokumentiert wird, bleibt textbasiert und damit versioniert und im
-Diff lesbar:
+Everything that gets documented stays text-based and therefore versioned and
+readable in the diff:
 
-- **Markdown** für Fließtext
-- **Mermaid** oder **PlantUML** für Diagramme, **ASCII-Art** als einfache Alternative
-- **AsciiDoc**, wo formatierter Text nötig ist (ersetzt Word)
+- **Markdown** for prose
+- **Mermaid** or **PlantUML** for diagrams, **ASCII art** as a simple alternative
+- **AsciiDoc** where formatted text is needed (replaces Word)
 
-GitHub und GitLab rendern Mermaid direkt; Confluence braucht ein gerendertes
-Bild. Für VS Code gibt es Plugins mit Live-Vorschau für Mermaid, PlantUML und
+GitHub and GitLab render Mermaid directly; Confluence needs a rendered image.
+For VS Code there are plugins with live previews for Mermaid, PlantUML and
 AsciiDoc.

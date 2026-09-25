@@ -1,36 +1,37 @@
-# sdlc — Prozessartefakte
+# sdlc — process artifacts
 
-Hier liegt alles, was der Software Development Lifecycle an Dokumenten erzeugt.
-Ein Arbeitspaket wandert sichtbar von oben nach unten durch die Ordner.
+Everything the Software Development Lifecycle produces in terms of documents
+lives here. A work package travels visibly from top to bottom through the
+folders.
 
 ```
 backlog/
-  unrefined/    rohe Stories, wie sie vom Produkt kommen
-  refined/      gegen die Definition of Ready geschärfte Stories
-  plans/        Implementierungspläne (ST-001_plan.md, ST-001_plan_v2.md)
-  reviews/      Review-Reports aus der Test-/Release-Phase
+  unrefined/    raw stories as they come from the product side
+  refined/      stories sharpened against the Definition of Ready
+  plans/        implementation plans (ST-001_plan.md, ST-001_plan_v2.md)
+  reviews/      review reports from the test/release phase
 
 standards/
-  definition_of_ready.md    wann ist eine Story bereit zur Umsetzung
-  definition_of_done.md     wann gilt eine Implementierung als fertig
-  architecture.md           wie das System gebaut ist
-  code_style.md             wie Code auszusehen hat
-  prompts/                  die Standard-Prompts je SDLC-Schritt
-  examples/                 angewendete Beispiele zum Nachschlagen
+  definition_of_ready.md    when a story is ready to be implemented
+  definition_of_done.md     when an implementation counts as finished
+  architecture.md           how the system is built
+  code_style.md             what code has to look like
+  prompts/                  the standard prompts per SDLC step
+  examples/                 applied examples to look up
 ```
 
-Die [Standard-Prompts](standards/prompts/README.md) sind der Einstieg in jeden
-Schritt: pro Phase eine Datei, mit den Pfaden dieses Repositories eingesetzt.
+The [standard prompts](standards/prompts/README.md) are the entry point into
+every step: one file per phase, with the paths of this repository filled in.
 
-Ergänzend außerhalb dieses Ordners:
+In addition, outside this folder:
 
-- [`docs/`](../docs/README.md) — Architekturdokumentation, Diagramme,
-  Entscheidungen, Teststrategie
-- [`tests/`](../tests/README.md) — Testcode und Testdaten
+- [`docs/`](../docs/README.md) — architecture documentation, diagrams,
+  decisions, test strategy
+- [`tests/`](../tests/README.md) — test code and test data
 
-## Namenskonvention
+## Naming convention
 
-Ein Arbeitspaket behält seinen Identifier über alle Ordner hinweg:
+A work package keeps its identifier across all folders:
 
 ```
 unrefined/ST-001.md  →  refined/ST-001.md  →  plans/ST-001_plan.md
@@ -38,4 +39,5 @@ unrefined/ST-001.md  →  refined/ST-001.md  →  plans/ST-001_plan.md
                                            →  reviews/ST-001_review.md
 ```
 
-So ist auf einen Blick erkennbar, wo ein Ticket steht und was ihm noch fehlt.
+That way it is visible at a glance where a ticket stands and what it is still
+missing.

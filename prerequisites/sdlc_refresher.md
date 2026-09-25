@@ -16,7 +16,7 @@ The hands-on parts cover the path from **Plan to Release**. They share one idea:
 
 **Key terms**
 
-- **Backlog:** the prioritized list of work items (stories, bugs, tasks) for a product. _Backlog maintenance_ ("Backlogpflege") means keeping it tidy, current and prioritized.
+- **Backlog:** the prioritized list of work items (stories, bugs, tasks) for a product. _Backlog maintenance_ means keeping it tidy, current and prioritized.
 - **User story:** a requirement written from the user's point of view: _"As a [role], I want to [action], so that [benefit]."_
 - **Refinement:** turning a rough story into one the team can work on, with enough detail, clear scope and a shared understanding.
 - **Acceptance criteria:** concrete, testable conditions that must be true for the story to count as fulfilled.
@@ -63,7 +63,7 @@ The hands-on parts cover the path from **Plan to Release**. They share one idea:
 
 - **Test-Driven Development (TDD):** write tests that define the expected behavior, then make them pass. With AI, tests show whether the output meets its goal and whether it breaks anything elsewhere. Two important rules: tests must _always_ be checked manually, and a test is only valuable if you have _seen it fail_. AI-written tests can contain subtle bugs, for example tests that always pass.
 - **Definition of Done (DoD):** the checklist an implementation must meet before it counts as finished. It covers readability, maintainability, test coverage, compliance with architecture.md and code_style.md, and the acceptance criteria.
-- **Separate session:** reviews and rework always run in a _fresh_ AI session ("Immer in einer separaten Session"). A session that wrote the code is biased toward its own decisions, just as a person is when reviewing their own work.
+- **Separate session:** reviews and rework always run in a _fresh_ AI session. A session that wrote the code is biased toward its own decisions, just as a person is when reviewing their own work.
 
 **How to use AI:** Build the DoD together with the AI. Then run a review in a new session that writes a report, and fix the findings one by one in yet another session.
 

@@ -1,19 +1,19 @@
 # docs
 
-Die Dokumentation des Systems — das, was jemand liest, der es verstehen will,
-nicht das, was ein Agent in jeder Session braucht.
+The documentation of the system — what someone reads who wants to understand it,
+not what an agent needs in every session.
 
-Hier hinein gehören:
+This is where the following belongs:
 
-- **Arc42-Dokumentation** — Kontext, Bausteine, Laufzeitsicht, Verteilung,
-  Entscheidungen
-- **Diagramme** als Mermaid oder PlantUML, damit sie versioniert und im Diff
-  lesbar bleiben
-- **Architekturentscheidungen** (ADRs) — was wurde wann warum entschieden
-- **Teststrategie** — was auf welcher Ebene getestet wird
+- **Arc42 documentation** — context, building blocks, runtime view, deployment,
+  decisions
+- **Diagrams** as Mermaid or PlantUML, so they stay versioned and readable in the
+  diff
+- **Architecture decisions** (ADRs) — what was decided when and why
+- **Test strategy** — what is tested at which level
 
-Kurz und bindend ist dagegen `sdlc/standards/architecture.md`: die Datei, die
-der Agent bei jeder Implementierung liest.
+Short and binding, by contrast, is `sdlc/standards/architecture.md`: the file the
+agent reads on every implementation.
 
-Der Standard-Prompt für diesen Schritt:
+The standard prompt for this step:
 [`../sdlc/standards/prompts/04_documentation.md`](../sdlc/standards/prompts/04_documentation.md)
